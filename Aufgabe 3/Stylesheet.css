@@ -1,32 +1,33 @@
 body{
-background-color:#b7b7b7;
+background-color:#e0e0d2;
 }
 
 p{
 font-size:2em;
-color:#ffffff;
-background-color:#b7b7b7;
 font-family:"Arial";
 }
 
 section{
-background-color:#a56504;
+background-color:#fff0b3;
 width:100%;
 }
 
 article{
-background-color:#008000;
 width:100%;
 }
 
 img{
 height:30%;
 width:25%;
-border: 1px solid #a56504;
+border: 1px solid #000000;
 border-radius:30px;
 }
 
-.Test{
-background-color:#ffbf80;
+.Test1{
+background-color:#e6f3ff;
+}
+
+.Test2{
+background-color:#daffb3;
 }
 
