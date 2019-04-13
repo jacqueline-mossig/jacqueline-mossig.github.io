@@ -1,0 +1,31 @@
+body{
+background-color:#b7b7b7;
+}
+
+p{
+front-size:2em
+color:#000000;
+background-color:#b7b7b7;
+font-family:Arial;
+}
+
+section{
+background-color:#a56504;
+widows: 100%;
+}
+
+article{
+widows:100%;
+}
+
+img{
+    height:30%;
+    width:25%;
+    border:1px solid:#a56504;
+    border-radius:26%
+    }
+
+.Test{
+    background-color:#ffbf80
+}
+
