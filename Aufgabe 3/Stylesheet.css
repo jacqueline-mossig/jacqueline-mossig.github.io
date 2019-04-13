@@ -4,26 +4,29 @@ background-color:#b7b7b7;
 
 p{
 font-size:2em;
+color:#ffffff;
+background-color:#b7b7b7;
 font-family:"Arial";
 }
 
 section{
 background-color:#a56504;
-widows:100%;
+width:100%;
 }
 
 article{
-widows:100%;
+background-color:#008000;
+width:100%;
 }
 
 img{
-    height:30%;
-    width:25%;
-    border:1px solid:#a56504;
-    border radius:10px;
+height:30%;
+width:25%;
+border: 1px solid #a56504;
+border-radius:30px;
 }
 
 .Test{
-    background-color:#ffbf80
+background-color:#ffbf80;
 }
 
