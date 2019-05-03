@@ -1,0 +1,170 @@
+body{
+background-color:#778899;
+}
+
+nav{
+    width:100%;
+    height:40%;
+    font-family:serif;
+    padding:5px;
+    text-align: center;
+    margin-bottom:150px;
+    margin-top:50px;
+}
+
+li{
+    font-size:35pt;
+    float:left;
+    position:relative;
+    left:500px;
+    color:#0000ff;
+    text-decoration:underline;
+    list-style-type:none;
+    text-align: center;
+    margin:30px;
+}
+
+.Angeklickt {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+aside{
+    width:20%;
+    height:100%;
+    border:solid #000000 5px;
+    margin:10px;
+    float:left;
+    position:absolute;
+    top:350px;
+    padding:5px;
+}
+
+aside h3{
+    font-size:18pt;
+    text-align: center;
+}
+
+aside h2{
+    font-size:40pt;
+    text-align: center;
+}
+
+aside:hover{
+    width:25%;
+    text-align: center;
+}
+
+aside:hover img{
+    position:relative;
+    left:45px;
+}
+
+.Asidebilder{
+    width:35%;
+    height:auto;
+    position:relative;
+    left:120px;
+}
+
+.Asideartikel{
+    min-width:400px;
+    height:auto;
+}
+
+.Asideartikel:hover{
+    width:420px;
+}
+
+.Asideartikel:hover h3{
+    text-align:center;
+}
+
+.Asideartikel:hover img{
+    width:40%;
+    height:auto;
+    position:relative;
+    left:125px;
+}
+
+h1{
+    font-family:"Segoe Print", "Lucida Handwriting", Arial;
+    font-size:48pt;
+    color:#add8e6;
+    display: flex; 
+    justify-content: center; 
+}
+
+main{
+    float:right;
+    width:70%;
+}
+
+main > div:nth-child(5n+1){
+    clear:left;
+}
+
+.Box{
+    font-family:"Segoe Print", "Lucida Handwriting", Arial;
+    width:25%;
+    height:426px;
+    background-color:#ffc0cb;
+    color:#b200b2;
+    float:left;
+    margin:10px;
+    font-size:12pt;
+}
+
+.Boxbild{
+    width:20%;
+    height:400px;
+    background-color:#add8e6;
+    float:left;
+    margin:10px;
+    padding:1%;
+}
+
+img{
+    position:relative;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.Button{
+   text-align:center;
+}
+
+button{ 
+    font-size:15pt;
+    background-color:#add8e6;
+    color:#b300b3;
+    border-radius:10px;
+}
+
+button:hover{
+    color:#ffc0cb;
+} 
+
+footer{
+    font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
+    font-size:30pt;
+    position: fixed;
+    width:100%;
+    font-family:serif;
+    position: relative;
+    margin-top:35em;
+    border-top-style:dotted;
+    border-top-color:#b300b3;
+    border-top-width:10px;
+    background-color:#ffc0cb;
+    padding:10pt;
+}
+
+.Jacky{
+    font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
+    font-size:30pt;
+    color:#b300b3;
+}
