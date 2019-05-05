@@ -2,14 +2,16 @@ body{
 background-color:#778899;
 }
 
-nav{
-    width:100%;
+header{
+    width:113%;
     height:40%;
     font-family:serif;
     padding:5px;
-    text-align: center;
-    margin-bottom:150px;
+    text-align:center;
+    margin-bottom:200px;
     margin-top:50px;
+    position:relative;
+    right:210px;
 }
 
 li{
@@ -30,7 +32,7 @@ li{
 }
 
 aside{
-    width:20%;
+    width:24%;
     height:100%;
     border:solid #000000 5px;
     margin:10px;
@@ -41,30 +43,30 @@ aside{
 }
 
 aside h3{
+    text-align:center;
     font-size:18pt;
-    text-align: center;
 }
 
 aside h2{
     font-size:40pt;
-    text-align: center;
+    text-align:center;
 }
 
 aside:hover{
     width:25%;
-    text-align: center;
+    text-align:center;
 }
 
 aside:hover img{
     position:relative;
-    left:45px;
+    left:5px;
 }
 
 .Asidebilder{
     width:35%;
     height:auto;
     position:relative;
-    left:120px;
+    left:133px;
 }
 
 .Asideartikel{
@@ -76,20 +78,9 @@ aside:hover img{
     width:420px;
 }
 
-.Asideartikel:hover h3{
-    text-align:center;
-}
-
-.Asideartikel:hover img{
-    width:40%;
-    height:auto;
-    position:relative;
-    left:125px;
-}
-
 h1{
     font-family:"Segoe Print", "Lucida Handwriting", Arial;
-    font-size:48pt;
+    font-size:40pt;
     color:#add8e6;
     display: flex; 
     justify-content: center; 
@@ -105,14 +96,17 @@ main > div:nth-child(5n+1){
 }
 
 .Box{
+
     font-family:"Segoe Print", "Lucida Handwriting", Arial;
-    width:25%;
-    height:426px;
+    width:23%;
+    height:410px;
     background-color:#ffc0cb;
     color:#b200b2;
     float:left;
     margin:10px;
+    padding:7px;
     font-size:12pt;
+    overflow: scroll;
 }
 
 .Boxbild{
@@ -151,16 +145,17 @@ button:hover{
 footer{
     font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
     font-size:30pt;
-    position: fixed;
     width:100%;
     font-family:serif;
-    position: relative;
-    margin-top:35em;
+    position:relative;
+    margin-top:1350px;
+    margin-left:12px;
     border-top-style:dotted;
     border-top-color:#b300b3;
     border-top-width:10px;
     background-color:#ffc0cb;
     padding:10pt;
+    right:20px;
 }
 
 .Jacky{
