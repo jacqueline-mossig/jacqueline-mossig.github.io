@@ -1,162 +1,294 @@
 body{
-background-color:#778899;
-}
+        background-color:#778899;
+    }
+            
+    header{
+        width:100%;
+        height:5%;
+        font-family:serif;
+        margin-bottom:30px;
+        margin-top:30px;
+        position:relative;
+    }
+            
+    nav{
+        background-color:#add8e6;
+        overflow:hidden;
+        z-index:100; 
+        height:90px;
+        width:20%;
+    }
+            
+    nav:hover{
+        height:90px;
+        width:20%;
+    }
+            
+    li{
+        list-style-type:none;
+        font-size:2.45em;
+        text-align:center;
+        margin:20px;
+        text-align:justify;
+        float:left;
+        
+    }
 
-header{
-    width:113%;
-    font-family:serif;
-    padding:5px;
-    margin-bottom:200px;
-    margin-top:50px;
-    position:relative;
-    z-index:3;
-}
+    a:link{
+        color:#b200b2;
+        text-decoration:none;
+    }
 
-nav{
-    float:left;
-    background-color:#ffc0cb;
-    width:20%;
-}
-
-.Tiere{
-    font-size:50pt;
+    a:visited{
     color:#b200b2;
-    list-style-type:none;
-    margin:30px;
-    text-align:center;
-    float:left;
-    overflow:hidden;
-    margin-top:60px;
-}
 
-.Tiere:hover{
-    font-size:50pt;
-    color:#b200b2;
-    list-style-type:none;
-    margin:30px;
-    text-align:center;
-    float:left;
-    margin-top:60px;
-}
+    }
+
+    .Menü{
+        list-style-type:none;
+        font-size:2.45em;
+        color:#b200b2;
+        text-align:center;
+        margin:20px;
+        text-align:justify;
+        float:left;
+    }
+            
+    nav:hover{
+        min-width:100%;
+    }
+            
+    aside{
+        background-color:#add8e6;
+        color:#b200b2;
+        height:40%;
+        font-size:1,3em;
+        width:20%;
+        margin:10px;
+        margin-left:22px;
+        float:left;
+        padding:5px;
+        z-index:111;
+    }
+            
+    aside h2{
+        font-size:3,2em;
+    }
+            
+    aside:hover{
+        min-height:40%;
+        min-width:24%;
+        text-align:center;
+    }
+            
+    h1{
+        font-family:"Segoe Print", "Lucida Handwriting", Arial;
+        font-size:2,45em;
+        color:#add8e6;
+        display: flex; 
+        justify-content: center; 
+    }
+            
+    main{
+        float:right;
+        top:20px;
+        width:70%;
+        z-index:112;
+    }
+            
+    main > div:nth-child(5n+1){
+        clear:left;
+    }
+            
+    .Box{
+        font-family:"Segoe Print", "Lucida Handwriting", Arial;
+        width:22%;
+        height:410px;
+        background-color:#ffc0cb;
+        color:#b200b2;
+        float:left;
+        margin:10px;
+        padding:7px;
+        font-size:12pt;
+        overflow:scroll;
+    }
+            
+    .Boxbild{
+        width:20%;
+        height:407px;
+        background-color:#add8e6;
+        float:left;
+        margin:10px;
+        padding:1%;
+    }
+            
+    img{
+        position:relative;
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+            
+    .Button{
+        text-align:center;
+    }
+            
+    button{ 
+        font-size:1,3em;
+        background-color:#add8e6;
+        color:#b300b3;
+        border-radius:10px;
+    }
+            
+    button:hover{
+        color:#ffc0cb;
+    } 
+            
+    footer{
+        font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
+        font-size:30pt;
+        width:100%;
+        font-family:serif;
+        position:relative;
+        margin-top:1100px;
+        border-top-style:dotted;
+        border-top-color:#b300b3;
+        border-top-width:10px;
+        background-color:#ffc0cb;
+        padding:10pt;
+        padding-left:50px;
+        right:20px;
+    }
+
+            
+    .Jacky{
+        font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
+        color:#b300b3;
+      }
+
+@media screen and (max-width:1250px){    
+
+    nav{
+        width:20%;
+    }  
+
+    nav:hover{
+        min-width:100%;
+    }
+    
+    li{
+        margin-top:20px;
+        font-size:18pt;
+        margin:5px;
+    }
 
 .Menü{
-    font-size:80pt;
-    color:#b200b2;
-    list-style-type:none;
-    margin:30px;
-    float:left;
-    text-align:center;
+    font-size:25pt;
 }
 
-nav:hover{
-    width:100%;
-}
-
-aside{
-    font-size:20pt;
-    width:24%;
-    height:100%;
-    border:solid #000000 5px;
-    margin:10px;
-    float:left;
-    position:absolute;
-    top:400px;
-    padding:5px;
-    z-index:2;
-}
-
-aside h2{
-    font-size:40pt;
-    text-align:left;
-}
-
-aside:hover{
-    width:25%;
-    text-align:center;
-}
-
-h1{
-    font-family:"Segoe Print", "Lucida Handwriting", Arial;
-    font-size:40pt;
-    color:#add8e6;
-    display: flex; 
-    justify-content: center; 
-}
-
-main{
-    float:right;
-    width:70%;
-    z-index:1;
-}
-
-main > div:nth-child(5n+1){
-    clear:left;
-}
-
-.Box{
-    font-family:"Segoe Print", "Lucida Handwriting", Arial;
-    width:23%;
-    height:410px;
-    background-color:#ffc0cb;
-    color:#b200b2;
-    float:left;
-    margin:10px;
-    padding:7px;
-    font-size:12pt;
-    overflow:scroll;
-}
-
-.Boxbild{
-    width:20%;
-    height:400px;
-    background-color:#add8e6;
-    float:left;
-    margin:10px;
-    padding:1%;
-}
-
-img{
-    position:relative;
-    width:100%;
-    height:100%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-}
-
-.Button{
-   text-align:center;
-}
-
-button{ 
-    font-size:15pt;
-    background-color:#add8e6;
-    color:#b300b3;
-    border-radius:10px;
-}
-
-button:hover{
-    color:#ffc0cb;
+    h1{
+        margin-left:20px;
+    }
+    
+    aside {
+        width:80%;
+        display:block;
+        margin-left:110px;
+    }
+    
+    main{
+        width:100%;
+        margin:10px;
+    }
+            
+    .Box{
+        width:31%;
+        display:block;
+        margin-left:230px;
+        
+    }
+    
+    .Boxbild{
+        width:31%;
+        display:block;
+    }
+    
+    footer{
+        width:100%;
+        margin-top:2300px;
+        font-size:20pt;
+    }
 } 
 
-footer{
-    font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
-    font-size:30pt;
-    width:100%;
-    font-family:serif;
-    position:relative;
-    margin-top:1450px;
-    margin-left:12px;
-    border-top-style:dotted;
-    border-top-color:#b300b3;
-    border-top-width:10px;
-    background-color:#ffc0cb;
-    padding:10pt;
-    right:20px;
-}
+@media screen and (max-width:800px){
+  
+    nav{
+        width:45%;
+        margin-left:1px;
+    }  
+    nav:hover{
+        min-width:100%;
+        height:110px;
+    }
+    
+    li{
+        margin-top:20px;
+        font-size:1,5em;
+        margin:5px;
+        padding-top:5px;
+    }
 
-.Jacky{
-    font-family:"Lucida Handwriting","Bradley Hand ITC", Arial;
-    font-size:30pt;
-    color:#b300b3;
-}
+    .Menü{
+        font-size:23pt;
+    }
+    
+    h1{
+        margin-left:30px;
+        text-align: center;
+        font-size:1,45em;
+    }
+    
+    aside {
+        width:90%;
+        display:block;
+        margin-left:17px;
+    }
+    
+    aside h2{
+        font-size:90%;
+    }
+
+    main{
+        width:100%;
+        margin:10px;
+        font-size:80%;
+    }
+            
+    main > div:nth-child(1n+0){
+        clear:left;
+    }
+    
+    .Box{
+        width:60%;
+        height:410px;
+        display:block;
+        margin-left:105px;
+    }
+    
+    .Boxbild{
+        width:60%;
+        height:414px;
+        display:block;
+        margin-left:105px;
+    }
+    
+    footer{
+        width:100%;
+        margin-top:4200px;
+        padding-left:10px;
+        font-size:80%;
+    }
+    
+    }    
