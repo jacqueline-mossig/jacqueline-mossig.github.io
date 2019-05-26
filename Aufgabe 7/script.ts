@@ -86,7 +86,7 @@ function click2 () {
 //return benutzen 
 function Test(a=4, b=8) : number {
     console.log(a,b);
-    let c : number = a + b;
+    var c : number = a + b;
     return c;
 }
 
