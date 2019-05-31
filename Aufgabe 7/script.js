@@ -75,7 +75,7 @@ function click2() {
 //return benutzen 
 function Test(a = 4, b = 8) {
     console.log(a, b);
-    let c = a + b;
+    var c = a + b;
     return c;
 }
 //Variable vom Typ Boolean
