@@ -1,0 +1,307 @@
+
+html{
+    height:100%;
+}
+
+body{
+    background-color:black;
+}
+
+header{
+    background-color:#848484;
+    height:20%;
+    width:94%;
+    padding:1em;
+    margin-left:1.6em;
+    font-size:1em;
+    text-align:center;
+}
+
+h1{
+    font-size:2.5em;
+    color:white;
+    text-align:center;
+    margin-top:1em;
+}
+
+h2{
+    font-size:1.5em;
+    color:white;
+    margin-left:1em;
+}
+
+main{
+    font-family: "Segoe Print", "Arial", "Helvetica", sans-serif;
+    width:100%;
+    margin:10px;
+    font-size:80%;
+}
+
+div{
+    background-color:purple;
+    margin-bottom:20%;
+    margin-top:5%;
+}
+
+.Karte{
+    font-weight:bold;
+    border-style:solid;
+    border-width:0,1em;
+    border-color:#000000;
+    border-radius:7px;
+    height:5em;
+    width:3.5em;
+    background:white;
+}
+
+#KartenSpielerArray .Karte, #KartenGegnerArray .Karte {
+    position:relative;
+    float:left;
+    margin-right:0.1em;
+    }
+
+#KartenAblageArray .Karte{
+    position:relative;
+    float:left;
+    margin-right:0.1em;
+}
+
+.Karte .Verdeckt {
+    background-color: rgb(194, 13, 43);
+}
+
+#KartenDeckArray .Karte {
+    position:relative;
+    float:left;
+    margin-right:0.1em;
+}
+
+.Kartenzahl{
+    font-size:2.5em;
+    position:absolute;
+    padding-bottom:1.1em;
+    padding-left:1.4em;
+}
+
+.Blau {
+    background-color:rgb(31, 150, 230);
+}
+
+.Rot{
+    background-color: rgb(209, 64, 64);
+}
+
+.Gruen{
+    background-color: rgb(67, 165, 67);
+}
+
+.Gelb{
+    background-color:rgb(243, 243, 118);
+}
+
+#KartenGegnerArray{
+    background-color:#FBEFFB;
+    height:13em;
+    width:94%;
+    margin-left:1.5em;
+    padding:1em;
+    padding-left:1em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#KartenAblageArray{
+    background-color:#FBEFFB;
+    height:13em;
+    width:15%;
+    padding:1em;
+    margin:2em;
+    margin-left:22em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    float:left;
+}
+
+#KartenDeckArray{
+    background-color:#FBEFFB;
+    height:13em;
+    width:15%;
+    padding:1em;
+    margin:2em;
+    margin-left:62em;
+    margin-top:2em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#KartenSpielerArray{
+    background-color:#FBEFFB;
+    height:13em;
+    width:94%;
+    margin-left:1.5em;
+    padding:1em;
+    padding-left:1em;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/*
+header {
+    background-color: rgb(184, 179, 179);
+    width: 100%;   
+}
+div{ 
+    background-color:antiquewhite;
+    margin-bottom:20%;
+    margin-top:5%;
+}
+.Karte{ 
+    height:150px;
+    width:75px;
+    border-style: dashed; 
+}
+
+#Spielerdeck .Karte, #Gegnerdeck .Karte {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:0.5em;
+    }
+
+#Ablagestapel .Karte{
+    margin-top: 0em;
+}
+
+.Karte .Verdeckt {
+    background-color: rgb(194, 13, 43);
+}
+
+#Kartenstapel .Karte {
+    margin-top: 0em;
+}
+
+.Kartenzahl {
+    color: white;
+    margin-left:30%;
+    padding: 10%;
+    padding-top: 0.8em;
+    font-size: 2em;
+    
+}
+
+.Blau {
+    background-color:rgb(31, 150, 230);
+}
+
+.Rot{
+    background-color: rgb(209, 64, 64);
+}
+
+.Gruen{
+    background-color: rgb(67, 165, 67);
+}
+
+.Gelb{
+    background-color:rgb(243, 243, 118);
+}
+
+#Gegnerdeck{ 
+    background-color:rgb(20, 165, 158);
+    height:200px;
+    width:100%;
+    clear:both;
+    margin-bottom: -1%;
+}
+
+#Kartenstapel{
+    background-color:rgb(3, 151, 3);
+    height:150px;
+    width:75px;
+    float:left;
+    margin-bottom: 6%;
+    margin-left: 20%;
+    
+}
+
+#Ablagestapel{
+    background-color:rgba(99, 18, 42, 0.856);
+    height:150px;
+    width:75px;
+    float:left;
+    margin-bottom: 6%;
+    margin-left: 20%;
+    
+}
+
+#Spielerdeck{
+    background-color:rgb(230, 107, 124);
+    height:200px;
+    width:100%;
+    clear:both;
+    margin-bottom: -75%;
+    
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.KartenAblageArray{
+    position:relative;
+    float:left;
+    margin-right:0.1em;
+
+    font-size:2.5em;
+    font-weight:bold;
+    border-style:solid;
+    border-width:0,1em;
+    border-color:#000000;
+    border-radius:7px;
+    height:5em;
+    width:3.5em;
+    background:white;
+}
+*/
+
+/*
+.KartenZahl .oben .unten{
+    font-weight:bold;
+}
+
+.oben{
+    position:absolute;
+    padding-bottom:1.1em;
+    padding-left:1.4em;
+}
+
+.unten{
+    position:absolute;
+    padding-bottom:1.5em;
+    padding-right:1.4em;
+    transform: rotate(180deg);
+}
+*/

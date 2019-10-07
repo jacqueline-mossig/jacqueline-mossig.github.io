@@ -266,8 +266,8 @@ body{
         font-size:80%;
     }
             
-    main > div:nth-child(1n+0){
-        clear:left;
+    main > div:nth-child(1n+2){
+        float:right
     }
     
     .Box{
